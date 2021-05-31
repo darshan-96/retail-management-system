@@ -1,1 +1,1 @@
-web: gunicorn retail-management-system.wsgi --log-file -
+web: gunicorn main:app --log-file -
